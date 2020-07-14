@@ -33,7 +33,7 @@ const Cart = () => {
   //summary subtotal tax total
   const TAX_RATE = 0.07;
   let Tax = total * TAX_RATE;
-  let GrandTotal = total - Tax;
+  let GrandTotal = total + Tax;
 
   const classes = useStyles();
 
